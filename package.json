@@ -1,7 +1,7 @@
 {
-  "name": "modulo-13",
+  "name": "curso-node-br-publicacao",
   "version": "1.0.0",
-  "description": "Aprendendo a usar o padrão Strategy para multi banco de dados",
+  "description": "Imersão de Node.js para iniciantes",
   "main": "src/api.js",
   "scripts": {
     "preinstall": "npm i -g pm2",
