@@ -1,0 +1,39 @@
+{
+  "name": "modulo-13",
+  "version": "1.0.0",
+  "description": "Aprendendo a usar o padrão Strategy para multi banco de dados",
+  "main": "src/api.js",
+  "scripts": {
+    "preinstall": "npm i -g pm2",
+    "postinstall": "cross-env NODE_ENV=production npm run test",
+    "start": "node src/api.js",
+    "test": "nyc --reporter=html mocha --timeout 10000 --exit src/tests/*.test.js",
+    "test:prod": "cross-env NODE_ENV=production npm t",
+    "test:watch": "mocha src/tests/*.test.js -w",
+    "prod": "cross-env NODE_ENV=production node src/api.js",
+    "prod:pm2": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "author": "Irlan Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.0.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/vision": "^6.0.0",
+    "bcrypt": "^4.0.1",
+    "boom": "^7.3.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "hapi-auth-jwt2": "^10.1.0",
+    "hapi-swagger": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
+  }
+}
