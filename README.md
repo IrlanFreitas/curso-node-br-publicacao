@@ -1,5 +1,5 @@
 # Curso NodeBR
-<br>
+
 Repo onde está resultado do curso free de Node da [NodeBR!](https://erickwendel.teachable.com/p/node-js-para-iniciantes-nodebr)
 
 - [x] Introdução
