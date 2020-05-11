@@ -1,6 +1,6 @@
 # Curso NodeBR
 <br>
-Repo onde está resultado do curso free de Node da [NodeBR!](https://treinamento.nodebr.org)
+Repo onde está resultado do curso free de Node da [NodeBR](https://treinamento.nodebr.org) !
 
 - [x] Introdução
 - [x] Sincronia de funções Javascript
