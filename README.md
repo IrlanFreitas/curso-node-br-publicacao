@@ -1,7 +1,7 @@
 # Curso NodeBR
 <br>
 Repo onde está resultado do curso free de Node da [NodeBR!](https://treinamento.nodebr.org/)
-<br>
+
 - [x] Introdução
 - [x] Sincronia de funções Javascript
 - [x] Manipulação de listas
